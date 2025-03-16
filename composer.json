@@ -1,0 +1,39 @@
+{
+    "name": "sagapay/sdk-php",
+    "description": "SagaPay - The world's first free, non-custodial blockchain payment gateway SDK for PHP",
+    "type": "library",
+    "keywords": [
+        "sagapay",
+        "blockchain",
+        "payment",
+        "cryptocurrency",
+        "php",
+        "sdk"
+    ],
+    "homepage": "https://sagapay.net",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "SagaPay Team",
+            "email": "support@sagapay.net",
+            "homepage": "https://sagapay.net"
+        }
+    ],
+    "require": {
+        "php": ">=8.0",
+        "ext-curl": "*",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "SagaPay\\SDK\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/halfindex/sagapay-sdk-php"
+        }
+    ]
+}
