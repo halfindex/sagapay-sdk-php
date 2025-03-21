@@ -25,7 +25,7 @@ class Client
     /**
      * API base URL
      */
-    private string $baseUrl = 'https://api.sagapay.net';
+    private string $baseUrl = 'https://api2.sagapay.net';
     
     /**
      * Constructor
